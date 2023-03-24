@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17.6px;
+    color: #f5f3f3;
+}
+.container {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url("images/bg-desktop.svg");
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 1440px;
+    height: 800px;
+   
+}
+
+.section {
+    padding: 3rem 5rem 0 5rem;
+}
+
+.content {
+    margin: 0 auto;
+    margin-top: 4.7rem;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+
+.title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 42px;
+}
+
+.description {
+    line-height: 1.6rem;
+}
+
+.button {
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: hsl(257, 40%, 49%);
+    background-color: #f5f3f3;
+    border-radius: 50px;
+    box-shadow: 0 1px 7px 0 #202020;
+    width: 11rem;
+    height: 3.2rem;
+}
+
+.button:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: #f5f3f3;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.button:active {
+    background-color: hsl(300, 69%, 71%);
+    color: #f5f3f3;
+    opacity: 0.2;
+}
+
+.social {
+   display: flex;
+   justify-content: flex-end;
+   gap: 1rem;
+}
+
+
+
+
+    
